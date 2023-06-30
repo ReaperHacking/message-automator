@@ -1,8 +1,10 @@
 '''
 Modified version without the time.sleep() so just in case you don't wanna wait for each message to load, here you go it will come in an instant!
+
+Check lines 7 and 18 for refrence :)
 '''
 
-import time
+# Where import time would've been
 
 # Prompt user for input
 msg = input("Enter your message: ")
