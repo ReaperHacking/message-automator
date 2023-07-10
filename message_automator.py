@@ -38,14 +38,9 @@ while re_execute == "Y":
     msg = input("Enter your message: ")
     while True:
       try:
-        count = int(
-          input(
-            "Enter the number of times to                                             repeat:"
-          ))
+        count = int(input("Enter the number of times to repeat:" ))
         if count < 1:
-          print(
-            "Error: Invalid input. Please enter a positive                           number for the count."
-          )
+          print("Error: Invalid input. Please enter a positive number for the count.")
         else:
           break
       except ValueError:
